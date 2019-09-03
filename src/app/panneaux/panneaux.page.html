@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    <ion-title>Panneaux</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+            <div *ngFor="let panneau of panneaux" class="panneau-img" (click)="onClickPanneau(panneau.id)">
+            <img [src]="panneau.img">
+          </div>
+      
+</ion-content>

@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Panneau detail</ion-title>
+        <ion-buttons slot="start">
+        <ion-back-button defaultHref="/panneaux"></ion-back-button>
+        <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-card>
+    <ion-card-header>
+      <ion-img [src]="panneau.img"></ion-img>
+      <ion-card-title>{{panneau.description}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Categorie: {{panneau.categorie}}
+    </ion-card-content>
+    </ion-card>
+  </ion-content>
+  

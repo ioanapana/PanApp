@@ -1,14 +1,25 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      PanApp
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div class="panneaux-button">
+    <ion-button href="panneaux"  expand="block">Panneaux</ion-button>
+  </div>
+  <div class="categories-button">
+    <ion-button href="categories"  expand="block">Catégories</ion-button>
+  </div>
+  <div class="quiz-button">
+    <ion-button href="quiz-home" color="success" expand="block"><ion-icon name="checkmark-circle-outline"></ion-icon>Quiz</ion-button>
+  </div>
+  <div class="parametres-button">
+    <ion-button href="parametres"  expand="block" shape="round" fill="outline" color="secondary"><ion-icon name="settings"></ion-icon>Paramètres</ion-button>
+  </div>
+  <div class="note-button" color="secondary">
+    <ion-button href="note"  expand="block" shape="round" fill="outline" color="secondary"><ion-icon name="thumbs-up"></ion-icon>Noter l'application</ion-button>
   </div>
 </ion-content>
